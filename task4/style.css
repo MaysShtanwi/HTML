@@ -3,10 +3,40 @@ body{
 	
 	background-image: url("b.png");
 	background-repeat:  no-repeat;
+	background-attachment: fixed;
+	text-align: left;
+	text-decoration:  none;
+	text-transform: capitalize;
+	line-height: 50px;
+	letter-spacing: 2px ;
+	text-shadow: 2px 2px #ffccff;
+font-family: 'Anton', sans-serif;
+list-style-type: circle;
+list-style-image: url('music.png');
+
 
 }
 p{
-	color: pink !important ;
+	color: white !important ;
+}
+ a:hover{
+  color:black;
+  background-color:white; 
+}
+	table {
+background-color:#339933;
+}
+nav{
+
+	background-color: green;
+	word-spacing: 15px;
 }
 
+	a{
+		color: white;
+		text-decoration: none;
+	}
 	
+	li{
+		color: white;
+	}
