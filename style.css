@@ -1,0 +1,102 @@
+body{
+
+background-image: url('img/k1.jpg');
+background-attachment: fixed;
+background-repeat: no-repeat;
+
+
+}
+fieldset{
+
+	background-color: white;
+	border: 2px solid purple;
+	height: 200px;
+	opacity: 0.57;
+	margin-top: 40px;
+
+}
+
+h1{
+
+	color: purple;
+}
+table{
+
+background-color: white;
+opacity: 0.9;
+border: 2px double purple;
+word-spacing: 50px;
+margin-left: 10px;
+}
+a{
+	text-shadow: 2px 2px lightpink;
+padding: 5px 30px ;
+
+text-decoration: none;
+
+color: purple;
+
+font-size: 28px;
+}
+a:hover{
+
+text-decoration: underline;
+	color: white;
+	background-color: gray;
+}
+p{
+	color: white;
+	  
+	font-size: 30px;
+	margin-left: 100px;
+	width: 800px;
+	font-family: "Times New Roman", Times, serif;​
+
+	
+	/*opacity: 0.6;
+	background-color: lightpink;*/
+
+}
+.a{
+margin-left: 100px;
+color: white;
+opacity: .89;
+font-size: 60px;
+
+
+}
+#b{
+
+width: 1300px;
+background-color: white;
+opacity: 0.6;
+
+
+
+}
+li{
+font-size: 40px;
+text-transform: capitalize;
+position: center;
+
+}
+
+#one{
+
+width: 1000px;
+
+}
+img{
+	opacity: 0.7;
+	height: 200px;
+	width: 300px;
+}
+#two{
+
+align-items: center;
+	width: 800px;
+	margin-left: 150px;
+}
+img:hover{
+	opacity: 1;
+}
