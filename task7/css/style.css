@@ -1,0 +1,162 @@
+	body{
+	margin: 0;
+		background-image: url("img/lady.jpg");
+	background-repeat: no-repeat;
+	}
+	header{
+		background-color: white;
+		height: 120px;
+		display: initial;
+
+	}
+	#logo{
+		float: left;
+		margin-left: 350px;
+		line-height: 120px;
+	}
+	nav{
+		float: right;
+		
+		line-height: 120px;
+		margin-right: 420px;
+	}
+	nav a{
+		text-decoration: none;
+		margin-left: 35px;
+		color: black;
+		font-weight: bold;
+	}
+	#main{
+		clear: both;
+		margin-top: 100px;
+	}
+	#divleft{
+		float: left;
+		margin-left: 350px;
+	}
+	table{
+		background-color: white;
+		float: right;
+		margin-right: 50px;
+		
+
+	}
+	td{
+		padding: 20px 10px 10px 10px;
+	}
+	#bigB{
+		clear: both;
+		display: flex;
+		margin-left: 250px;
+
+
+	}
+	.planner{
+		margin-top: 30px;
+	}
+	#box1{
+		border-radius: 10px;
+		background-color: #b3ffec;
+		width: 400px;
+	padding: 50px 60px;
+		text-align: left;
+		
+	}
+	#h2F{
+		font-size: 25px;
+		padding-top: 30px;
+		color: blue;
+		font-size: 30px;
+	}
+	#h2F1{
+		color: black;
+		font-weight: bold;
+
+	}
+	#divp{
+		font-weight: thin;
+		text-align: left;
+	}
+	button{
+		background-color: white;
+		text-align: center;
+		height: 50px;
+		width: 120px;
+		font-weight: bold;
+		margin-top: 50px;
+		border-radius: 10px;
+
+	}
+	.button{
+		text-align: left;
+
+	}
+	#box2{
+		border-radius: 10px;
+		background-color:#ccffff;
+		width: 400px;
+	padding: 50px 60px ;
+		text-align: left;
+		margin-top: -20px;
+		height: 350px;
+		
+		
+	}
+	#box3{
+	border-radius: 10px;
+		background-color: #b3ffec;
+		width: 400px;
+	padding: 40px;
+		text-align: left;
+		height: 315px;
+		
+	}
+	#div3{
+		clear: both;
+		margin-top: 60px;
+
+	}
+	#div3img{
+		float: left;
+		margin-left: 250px;
+		margin-top: 50px;
+	}
+	#indiv3{
+		margin-top: 20px;
+		width: 400px;
+		float: right;
+		width: 500px;
+		 
+		margin-right:200px;
+	}
+
+
+.greenButton{
+	
+	color: white;
+	text-align: left;
+
+}
+.greenButton button{
+	background-color:#99ff99;
+	margin-top: 0;
+	width: 400px;
+	text-align: left;
+	padding-left: 30px;
+
+}
+h5{
+	color: blue;
+
+}
+#indiv3 div p{
+	margin-top: 50px;
+}
+#div4{
+	clear: both;
+	background-image: url("img/rect.jpg");
+	width: 100%;
+	height: 900px;
+	margin-top: 800px;
+	text-align: center;
+}
