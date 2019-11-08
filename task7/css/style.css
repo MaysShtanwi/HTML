@@ -4,9 +4,13 @@
 	background-repeat: no-repeat;
 	}
 	header{
-		background-color: white;
+		background-color: transparent;
 		height: 120px;
 		display: initial;
+		position: fixed;
+		width: 100%;
+	top: 0;
+
 
 	}
 	#logo{
@@ -36,8 +40,11 @@
 	}
 	table{
 		background-color: white;
-		float: right;
+		
 		margin-right: 50px;
+		position: fixed;
+		right: 0;
+	
 		
 
 	}
@@ -48,6 +55,8 @@
 		clear: both;
 		display: flex;
 		margin-left: 250px;
+		margin-top: 500px;
+		padding-top: 100px;
 
 
 	}
@@ -156,7 +165,151 @@ h5{
 	clear: both;
 	background-image: url("img/rect.jpg");
 	width: 100%;
-	height: 900px;
+	height: 1150px;
 	margin-top: 800px;
 	text-align: center;
+
+}
+#indiv4{
+
+	padding-top: 100px;
+}
+
+#schedule{
+	border-radius: 20px;
+	background-color: white;
+	width :1300px;
+	height: 800px;
+	margin: 50px auto ;
+	clear: both;
+
+}
+
+.sections{
+	float: left;
+	width: 320px;
+	text-align: left;
+	margin-top:100px;
+	margin-left: 100px;
+
+}
+#div5{
+	clear: both;
+	background-image: url("img/nurse.jpg");
+	width: 100%;
+	height: 800px;
+	background-repeat: no-repeat;
+	background-position: right;
+	margin: 0;
+
+}
+#indiv5{
+	float: left;
+	margin-left: 400px;
+	margin-top:200px;
+	width: 510px;
+}
+
+#doc button{
+	background-color: #00cc99;
+	color: white;
+	width: 180px;
+	border-radius: 30px;
+	border: none;
+}
+
+#div6{
+	clear: both;
+width: 100%;
+height:350px;
+background-color: #f4f4f4;
+align-items: center;
+margin-top: -50px;
+
+}
+
+#indiv6{
+
+float: left; 
+	margin-left: 400px;
+margin-top: 30px;
+display: flex;
+
+
+
+
+
+}
+#indiv6 h1{
+	font-size: 50px;
+	color: #404040;
+}
+#indiv6 div{
+text-align: center;
+margin-left: 100px;
+margin-right: 100px;
+margin-top: 50px;
+}
+#indiv6 div h1{
+	margin-bottom: 10px; 
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
+	color: #505050;
+	font-weight: 700;
+
+}
+
+hr{
+	background-color: #3ce2ad;
+	width: 20px;
+	height: 2px;
+	border: none;
+	margin-top: 0;
+}
+h6{
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color: #505050;
+}
+#div7{
+
+	background-image: url("img/BG.jpg");
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1000px;
+	margin:0;
+}
+
+#bigB1{
+	background-color: #d4fdfe;
+	width: 350px;
+	height: 650px;
+	text-align: center;
+	float: left;
+	margin-left: 80px;
+
+}
+.first{
+	padding-top: 15px;
+
+}
+.first div h2{
+
+font-family: 'Roboto', sans-serif;
+color: #3a3a3a;
+font-size: 24px;
+font-weight: 700;
+}
+.number{
+	font-family: 'Montserrat', sans-serif;;
+	font-weight: 900;
+	font-size: 50px;
+	color: #3a3a3a;
+}
+span{
+	font-size: 30px;
+	font-weight: 400;
+
 }
