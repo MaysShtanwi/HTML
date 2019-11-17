@@ -1,0 +1,113 @@
+body{
+
+}
+
+.navbar{
+/*	height: 40px;
+*/}
+ .sign{
+ 	    color: #11cbd7!important;
+ }
+ 
+ 
+ .navbar-inner{
+ 	width: 1200px;
+ 	border: none;
+ 	margin: 25px auto auto auto;
+ }
+ .hero-unit{
+ 	background-image: url("../img/back.jpg");
+ 	height: 800px;
+ 	border-radius: 0;
+ }
+.hero-unit h2{
+	color: white;
+	 font-family: rubik,arial,sans-serif ;
+	 font-weight: thin !important;
+	 text-align: center;
+	 margin-top: 350px;
+	 font-size: 40px;
+	 margin-bottom: 24px;
+	 font-weight: 300;
+}
+
+ .brand{
+ 	margin-right: 300px;
+ 	    color: #000!important;
+ 	    font-size: 20px;
+ 	    font-family: rubik,arial,sans-serif;
+ 	    letter-spacing: 4px;
+ }
+ .form-inline{
+ 	background-color: white;
+ 	width: 950px;
+ 	height: 80px;
+ 	margin: auto;
+ 	line-height: 80px;
+ }
+ .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
+ 	background-color: transparent;
+ }
+ 
+ .mid{
+ 	display: inline-block;
+ 	margin-right: 80px ;
+ 	margin-left: 30px;
+
+ }
+ .btn{
+margin-top:20px;
+margin-right: 20px;
+width: 100px;
+background: #11cbd7!important;
+color: white;
+height: 40px;
+}
+#first{
+	color: white;
+	text-align: center;
+}
+.btn2{
+background: #11cbd7!important;
+color: white;
+height: 60px;
+border-radius: 5px; 
+width: 150px;
+margin-top: 30px;
+border: none;
+margin-left: 800px;
+}
+
+.btn3{
+background: #11cbd7!important;
+color: white;
+width: 150px;
+height: 45px;
+border: none;
+border-radius: 5px; 
+
+}
+
+p{
+	margin-top: 20px;
+	color: gray ;
+	line-height: 32px;
+	margin-bottom: 48px;
+}
+.span6 h2{
+	color:  #11cbd7;
+	font-size: 45px;
+	font-family: rubik,arial,sans-serif;
+	font-weight: 300 !important;
+
+}
+section{
+	padding: 80px 0;
+}
+.img-fluid{
+	width: 800px;
+
+}
+.container{
+	width: 1300px;
+}
