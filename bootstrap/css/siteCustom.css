@@ -9,12 +9,8 @@ body{
  	    color: #11cbd7!important;
  }
  
+
  
- .navbar-inner{
- 	width: 1200px;
- 	border: none;
- 	margin: 25px auto auto auto;
- }
  .hero-unit{
  	background-image: url("../img/back.jpg");
  	height: 800px;
@@ -45,9 +41,7 @@ body{
  	margin: auto;
  	line-height: 80px;
  }
- .navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
- 	background-color: transparent;
- }
+
  
  .mid{
  	display: inline-block;
@@ -110,4 +104,48 @@ section{
 }
 .container{
 	width: 1300px;
+
+	text-align: center;
+}
+
+.span3 h3{
+	font-size: 20px;
+	font-family: rubik,arial,sans-serif;
+	font-weight: 400 !important;
+
+}
+.sec{
+	padding-top: 100px;
+	margin-top: 100px;
+	    background-color: #f8f9fa!important;
+	    text-align: center;
+}
+.container h2{
+	
+	color:  #11cbd7;
+	font-size: 45px;
+	font-family: rubik,arial,sans-serif;
+	font-weight: 300 !important;
+}
+.btn-primary{
+	width: 150px;
+	height: 50px;
+}
+.span2 h2{
+	font-size: 20px;
+	font-family: rubik,arial,sans-serif;
+	font-weight: 300 !important;
+}
+span{
+	    color: #11cbd7;
+}
+.sp{
+	background-color: #11cbd7;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+}
+.sec1{
+	text-align: center;
+	background-color: white;
 }
