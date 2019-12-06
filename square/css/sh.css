@@ -1,0 +1,80 @@
+.sk{
+
+	transform: skew(62deg,-26deg);
+	box-shadow: 1px 10px 10px 10px #888888;
+
+	height: 380px;
+	width: 100px;
+	margin-left: 500px;
+	margin-top: 100px;
+}
+img{
+	height: 60px;
+	width: 60px;
+	margin-left: 20px;
+}
+
+.stack{
+	background-color: black;
+	border:none;
+}
+
+.glasses{
+	background-color: black;
+		border:none;
+}
+.bag{
+	background-color: black;
+		border:none;
+}
+.help{
+	background-color: black;
+		border:none;
+}
+.gear{
+	background-color: black;
+		border:none;
+
+}
+.mail{
+	background-color: black;
+		border:none;
+}
+
+
+
+.stack:hover{
+	background-color: #ff3300;
+	transform: translate(20px,-10px);
+
+
+}
+
+.glasses:hover{
+	background-color: #ff3300;
+transform: translate(20px,-10px);
+}
+
+.bag:hover{
+	background-color: #ff3300;
+transform: translate(20px,-10px);
+}
+
+.help:hover{
+	background-color: #ff3300;
+transform: translate(20px,-10px);
+}
+
+.gear:hover{
+	background-color: #ff3300;
+transform: translate(20px,-10px);
+}
+
+.mail:hover{
+	background-color: #ff3300;
+transform: translate(20px,-10px);
+}
+
+
+
+

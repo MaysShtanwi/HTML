@@ -1,0 +1,74 @@
+body{
+
+}
+.container{
+background-color: transparent;
+  width: 400px;
+  height: 600px;
+  border: 2px solid black;
+    perspective: 1000px;
+    display: inline-block; 
+    margin-top: 10%;
+    margin-left: 10%;
+}
+.glasses{
+	width: 400px;
+	height: 600px;
+	 background-color: #bbb;
+  color: color: #800000;
+}
+
+.flip1{
+	  transform-style: preserve-3d;
+	  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+
+}
+.inner{
+	background-color: #800000;
+  color: white;
+  transform: rotateY(180deg);
+  padding-top: 50px;
+}
+.container:hover .flip1{
+	transform: rotateY(180deg);
+}
+.glasses, .inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.glasses, .inner1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.glasses, .inner2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.inner1{
+	background-color: #660033;
+  color: white;
+  transform: rotateY(180deg);
+   padding-top: 50px;
+
+}
+
+.inner2{
+	background-color: grey;
+  color: white;
+  transform: rotateY(180deg);
+   padding-top: 50px;
+}
+h2{
+	margin-top: 50px;
+}

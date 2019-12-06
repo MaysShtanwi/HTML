@@ -1,0 +1,83 @@
+body{
+	background-color: white;
+}
+
+.a{
+	width: 200px;
+	height: 300px;
+	margin-top: 500px;
+	margin-left: 500px;
+	background-color: black;
+	padding-top: 20px;
+	
+
+}
+.b{
+	margin-top: 0;
+	width: 100px;
+	height: 300px;
+	margin-left: 550px;
+	background-color: black;
+
+}
+
+.red{
+	border-radius: 100px;
+	background-color: red;
+	width: 70px;
+	height: 70px;
+margin-left: 60px;
+animation-name: rd;
+	animation-duration: 5s;
+	border:2px solid white;
+
+}
+
+
+
+
+.yellow{
+	border-radius: 100px;
+	background-color: #ffcc00;
+	width: 70px;
+	height: 70px;
+margin-left: 60px;
+margin-top: 20px;
+animation-name: yell;
+	animation-duration: 5s;
+	animation-delay: 4s;
+	border:2px solid white;
+}
+
+
+.green{
+	border-radius: 100px;
+	background-color:  #003300;
+	width: 70px;
+	height: 70px;
+margin-left: 60px;
+margin-top: 20px;
+animation-name: grn;
+	animation-duration: 5s;
+	animation-delay: 6s;
+	border:2px solid white;
+}
+
+
+
+@keyframes rd {
+	from{background-color: #800000}
+	to{background-color: red}
+}
+
+@keyframes yell {
+	from{background-color: #ffcc00}
+	to{background-color: yellow}
+}
+
+@keyframes grn {
+	from{background-color: #003300}
+	to{background-color: green}
+}	
+
+

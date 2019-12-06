@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+	<script type="text/javascript">
+	/*var x=257.5;
+	var y="112";
+	console.log(x.toString());
+	console.log(x.toFixed());
+	console.log(x.valueOf());
+console.log(x.toExponential());
+
+	console.log(Number(x));
+	console.log(parseInt(y));
+	console.log(parseFloat(x));
+	console.log(Number.NaN);*/
+
+	var x=[1,2,3,4];
+	var y="mays";
+	var z=["m","a","y","s"];
+	document.write(Array.of(5,9,7,3) + "<br>");
+	document.write(z.includes("f")+ "<br>");
+	console.log(Array.from(y));
+
+	console.log(Array.of('s','a','d'));
+
+	document.write(x.concat([6,7]) + "<br>");
+
+	document.write(x.toString() + "<br>");
+	document.write(x.join("*")  + "<br>");
+	/*document.write(x.splice(2,0,"9","6"));*/
+/*x.splice(0, 1);
+document.write(x);*/
+/*
+
+document.write(x.pop()  + "<br>");
+document.write(x.push("5")  + "<br>");
+document.write(x.shift()  + "<br>");
+document.write(x.unshift("0")  + "<br>");
+document.write(x.length  + "<br>");
+document.write(x.sort()  + "<br>");
+document.write(x.reverse());
+document.write(x.splice(2,0,"9","6"));*/
+
+document.write(x.slice(1,3));
+
+
+
+var hours=7;
+if(hours%2==0){
+	console.log(true);
+}
+else
+{
+	console.log(false)
+}
+
+console.log((hours%2==0)? true:false);
+
+
+
+
+
+var gpa=95;
+if(gpa<=100 && gpa >=90)
+{
+	console.log("A");
+}
+else if(gpa<=89 && gpa >=80)
+{
+	console.log("B");	
+}
+else if(gpa<=79 && gpa >=70)
+{
+	console.log("C");	
+}
+else if(gpa<=69 && gpa >=50)
+{
+	console.log("D");	
+}
+else if(gpa<50)
+{
+	console.log("F");	
+}
+else
+{
+	console.log("not in array");
+}
+
+
+
+var str="E";
+switch(str)
+{
+	case "A":
+	console.log("A");
+	break;
+	case "B":
+	console.log("B");
+	break;
+	case "C":
+	console.log("C");
+	break;
+	case "D":
+	console.log("D");
+	break;
+	default:
+	console.log("not in array");
+}
+
+
+function myFunction(band,last)
+{
+return "THIS IS "+band +" "+ last;
+}
+var m=myFunction("BTS","Bangtan Sonyeondan");
+console.log(m);
+
+
+/*
+function factorialize(i)
+{
+if(i<=0)
+{
+
+return 1;
+}
+else
+{
+	 return (i * factorialize(i - 1));
+
+}
+
+}
+
+console.log(10);
+*/
+
+
+var factorial = function(number) {
+  if (number <= 0 ) { 
+    return 1;
+  } else { 
+    return (number * factorial(number - 1));
+  }
+};
+console.log(factorial(10));
+
+
+</script>
+
+</body>
+</html>

@@ -1,15 +1,7 @@
-.jumbotron{
-    background-color: #1abc9c!important;
-}
-.head{
-	    background-color: #2c3e50!important;
-}
-.cop{
-	    color: #1abc9c;
-}
-.sec2{
-	padding-bottom: 100px;
-}
+.jumbotron{background-color: #1abc9c!important;}
+.head{background-color: #2c3e50!important;}
+.cop{color: #1abc9c;}
+.sec2{padding-bottom: 100px;}
 .footer{
     background-color: #2c3e50;
 }
@@ -24,7 +16,6 @@
 .nv:hover{
 	color: #1abc9c!important;
 }
-
 .btn:hover{
 	background-color: white!important;
 	color: #2c3e50!important;

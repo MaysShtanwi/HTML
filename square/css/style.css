@@ -1,0 +1,136 @@
+body{
+background-color: black;
+
+}
+
+/*div{
+	width: 500px;
+	height: 500px;
+	background-color: lightblue;
+	animation: sqr 4s linear infinite;
+	border:5px solid #003366;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+
+}
+
+@keyframes sqr {
+
+	20%{
+		transform: rotate(900deg);
+	}
+	40%{
+		transform: rotate(900deg);}
+	60%{
+		transform: rotate(900deg);
+	}
+	70%{
+		transform: rotate(900deg);
+	}*/
+.mid{
+	margin-left: 100px;
+}
+h3{
+	color: white;
+display: inline-block;
+
+}
+.ld{
+width: 600px;
+height: 50px;
+border:3px solid white;
+}
+.in{
+	width: 50px;
+height: 50px;
+	background-color: white;
+	animation: ld 6s linear infinite;
+}
+
+.dot{
+	color: white;
+	margin-left: 10px;
+	display: inline-block;
+	opacity: 0;
+   
+    
+}
+.one{
+animation: showHideDot 4s linear infinite;
+animation-delay: 0.2s;
+}
+.two{
+	animation: showHideDot 4s linear infinite;
+animation-delay: 0.4s;
+}
+
+.three{
+	animation: showHideDot 4s linear infinite;
+animation-delay: 0.6s;
+}
+@keyframes showHideDot {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+
+   60% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes ld {
+
+40%{
+	width: 100px;
+}
+50%{
+	width: 150px;
+}
+60%{
+	width: 200px;
+}
+70%{
+	width: 300px;
+}
+80%{
+	width: 400px;
+}
+90%{
+	width: 500px;
+}
+100%{
+	width: 600px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+	80%{
+		transform: rotate(900deg);
+	}
+	90%{
+		transform: rotate(900deg);
+	}
+	100%{
+		animation-duration: .1s;
+		border-radius: 100%;
+		left:30%;
+
+	}
+}*/

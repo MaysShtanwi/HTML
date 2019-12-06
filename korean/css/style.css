@@ -1,0 +1,133 @@
+body{
+
+}
+.container{
+	display: flex;
+}
+.face1{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	background-color: #ffebbb;
+	position: relative;
+	top:500px;
+	left: 500px;
+}
+
+
+
+.eyes1{
+	width: 40px;
+	height: 3px;
+	background-color: black;
+	position: absolute;
+	top: 40%;
+	width: 20%;
+	left: 15%;
+	animation:eye 6s linear infinite;
+}
+
+.eyes2{
+	width: 40px;
+	height: 3px;
+	background-color: black;
+	position: absolute;
+	top: 40%;
+	width: 20%;
+	right: 15%;
+	animation:eye 6s linear infinite;
+}
+
+.black{
+	height: 2px;
+	width: 5px;
+	border-radius: 100px;
+	background-color: black;
+	margin-left: 50%;
+	animation:bl 6s linear infinite;
+}
+
+.mouth1{
+	width: 50px;
+	height: 3px;
+	background-color: black;
+	position: absolute;
+	top: 70%;
+	width: 40%;
+	left:30%;
+	animation:mouth 6s linear infinite;
+}
+
+
+@keyframes eye {
+	
+	to{
+		background-color: #663300;
+		border-radius: 2% 50%;
+		transform:scale(1,6);
+
+	}
+}
+
+@keyframes bl {
+	
+	to{
+		border-radius: 100px;
+		transform:scale(2,1);
+	}
+}
+
+@keyframes mouth {
+	
+	to{
+		background-color: #ff6666;
+		border-radius:100%;
+		transform:scale(1,7);
+
+	}
+}
+
+
+.face2{
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	background-color: #ffffcc;
+	position: relative;
+	top:500px;
+	left: 500px;
+	margin-left: 100px;
+}
+
+
+
+.eyes3{
+	left:30%;
+	animation:eye1 6s linear infinite;
+}
+
+.eyes4{
+	left: 60%;
+	animation:eye1 6s linear infinite;
+}
+
+
+
+@keyframes eye1 {
+	
+	to{
+		border-style: solid;
+		border-width: 0.25em 0.25em 0 0;
+		content: '';
+		display: inline-block;
+		height: 10%;
+		position: absolute;
+		top: 0.15em;
+		transform: rotate(-45deg);
+		vertical-align: top;
+		width: 10%;
+		top: 40%;
+
+
+	}
+}

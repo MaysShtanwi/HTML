@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<p id="demo"> </p>
+<script type="text/javascript">
+	/*var x=16;
+	var m={firstName:"John", lastName:"Doe"};
+	console.log(m.firstName);
+	var y=["Saab", "Volvo","BMW"];
+	console.log(y[1]);*/
+/*document.getElementById("demo").innerHTML=y;
+*/
+/*document.getElementById("demo").innerHTML=
+typeof "John" + "<br>" +
+typeof 3.14 + "<br>" +
+typeof NaN + "<br>" +
+typeof false + "<br>" +
+typeof [1,2,3,4] + "<br>" +
+typeof {name: 'John', age:34} + "<br>" +
+typeof new Date() + "<br>" +
+typeof function () {} + "<br>" +
+typeof y + "<br>" +
+typeof null;
+
+const my=0.16;
+const my=20;*/
+/*
+var name ="Mays Shatnawi";
+document.getElementById("demo").innerHTML=
+name.length + "<br>" +
+name.indexOf("Mays")+ "<br>" +
+name.lastIndexOf("Mays")+ "<br>" +
+name.search("Mays")+ "<br>" +
+name.slice(7,13)+ "<br>" +
+name.substring(7,13)+ "<br>" +
+name.replace("Mays", "laith")+ "<br>" +
+name.toUpperCase()+ "<br>" +
+name.toLowerCase()+ "<br>" +
+name.trim() + "<br>" +
+name.charAt(2);*/
+
+var name =" Mays Feras Shatnawi ";
+var email ="shatnawi.mays@gmail.com";
+var h="hi";
+console.log(typeof name) ;
+
+if(name.length==null){
+
+console.log('empty');
+}
+else
+{
+
+console.log('full');
+
+}
+
+console.log(name.trim().split(" "));
+
+
+var ml="maysshatnawi7@gmail.com";
+var at="...@"
+var nn=ml.split("@");
+var n1=nn[0].slice(0,3).concat(at);
+var n2=nn[1].slice(0);
+document.write(n1+n2);
+
+
+console.log(h.concat(h).repeat(3));
+
+var output = [name.slice(0, 4),"Engineer", name.slice(4,25)];
+
+console.log(output);
+console.log(name.match(/.{1,2}/g));
+ console.log((name.match(/a/g)).length); 
+console.log(name.replace(/ /g, "&^*<>;"));
+
+
+if(name.length > 30) {
+    name = name.substring(0,9) + "...";
+}
+else
+{
+    	name = name.substring(0,9) + "&%£";
+}
+console.log(name);
+</script>
+
+</body>
+</html>
