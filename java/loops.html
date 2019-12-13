@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="js/java.js"></script>
+	<title></title>
+	<style type="text/css">
+		.head{
+			display: flex;
+		}
+		#green{
+			background-color: lightgreen;
+			width: 300px;
+			height: 1000px;
+			color: black;
+			text-align: center;
+		}
+		#yellow{
+			background-color: yellow;
+			width: 300px;
+			height: 1000px;
+			color: black;
+			text-align: center;
+		}
+		#orange{
+			background-color: orange;
+			width: 300px;
+			height: 1000px;
+			color: black;
+			text-align: center;
+		}
+		#red{
+			background-color: lightpink;
+			width: 300px;
+			height: 1000px;
+			color: black;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+<!-- <div class="head">
+<div id="green">
+	
+</div>
+
+<div id="yellow">
+	
+</div>
+<div id="orange">
+	
+</div>
+<div id="red">
+	
+</div>
+</div> -->
+
+
+
+
+
+
+<script type="text/javascript">
+	
+	/*let i=0;
+	while (i<10)
+	{
+		console.log("The number is " +i);
+		i++;
+	}*/
+/*let i=0;
+while( i<=100)
+{
+	if(i%2 !=0){
+		// console.log(i);
+		 document.getElementById("green").innerHTML +=i + "<br>" ;
+
+	i++;
+}
+
+
+	else (i%2==0)
+	{
+	document.getElementById("yellow").innerHTML +=i+ "<br>";
+	i++;	
+	}
+
+}
+
+
+
+let x=0;
+while(x<=100)
+{ 
+if(x%5 == 0)
+{
+	console.log(x);
+	document.getElementById("orange").innerHTML +=x + "<br>";
+}
+	x++;
+
+}
+ 
+ i=0;
+while(  i<=100)
+{
+	if(i%10 ==0)
+	{
+	document.getElementById("red").innerHTML +=i + "<br>";
+}
+	i++;
+}
+
+*/
+
+/*let i=0;
+while( i<=100)
+{
+
+document.getElementById("green").innerHTML +=i + "<br>";
+
+document.getElementById("yellow").innerHTML += (i+1) + "<br>";
+document.getElementById("orange").innerHTML += (i*5) + "<br>";
+document.getElementById("red").innerHTML += (i*10) + "<br>";
+i+=2;
+}
+
+*/
+
+/*
+var x={"Sunday",'Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'};
+
+for(key in x)
+{
+	console.log('The day is ' + x[key]);
+}
+*/
+
+
+/*const person={name:'Mays', age:23, name:'Maha', age:25 };
+for(key in person){
+	//console.log(key);
+	console.log(key,person[key]);
+}*/
+
+
+var m= "<table border='3'>";
+m+= "<tr> <td>ID</td>";
+m+="<td>name</td>";
+m+="<td>age</td> </tr>";
+
+
+
+
+
+
+/*
+var obj=[
+{'ID': 1, 'Name': 'Mays', 'Age':23},
+{'ID': 2, 'Name': 'Maha', 'Age':25},
+{'ID': 3, 'Name': 'Walaa', 'Age':26},
+
+
+];
+*/
+
+
+var obj=
+{   Mays: 23, Maha: 25 , Walaa:26};
+
+
+
+for(key in obj)
+{
+
+	// console.log( obj[key].ID + obj[key].Name +obj[key].Age );
+m+="<tr>";
+m+="<td>"+ key +"</td>";
+
+m+="<td>"+ obj[key] +"</td>";
+
+m+="</tr>";
+
+
+}
+
+/*for(key in obj)
+{
+
+	// console.log( obj[key].ID + obj[key].Name +obj[key].Age );
+m+="<tr>";
+m+="<td>"+ obj[key].ID +"</td>";
+m+="<td>"+ obj[key].Name +"</td>";
+m+="<td>"+ obj[key].Age +"</td>";
+m+="</tr>";
+
+
+}*/
+m+=" </table>";
+document.write(m);
+</script>
+
+</body>
+</html>

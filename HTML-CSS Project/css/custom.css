@@ -1,0 +1,139 @@
+body{
+
+	background-image: url("../img/bk3.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.head{
+	background-image: linear-gradient(90deg, rgb(77, 77, 77), rgb(204, 204, 204));
+	height: 90px;
+	position: fixed;
+	border-bottom: 2px solid white;
+}
+
+.jumbotron{
+	background-color: transparent!important;
+}
+
+.image{
+	width :85px;
+	height :85px;
+
+}
+
+.t1{margin-top: 300px;}
+.masthead-heading{
+
+	background: linear-gradient(to right,#990033  0%,#990033
+		50%,#008000 70%,#990033 100%);
+
+	-webkit-background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+/*	color:#99004d;
+*/ 
+
+}
+.para{color: #cc0066;
+	font-size: 30px;}
+	.line{background-color: #990033;
+		height: 2px;
+		width: 350px;}
+
+		.berry{
+			height: 500px;
+			width: 350px;
+
+		}
+		.backG{
+			margin-top: 150px;
+			width: 380px;
+			padding: 20px 5px 20px 5px;
+			background-color: white; 
+			border-radius: 10px;
+			border:5px solid #990033;
+		}
+		.sec1{
+
+			background-color: #f5f5f5;
+			
+		}
+		.cont1{
+margin-top: 100px;
+		}
+		
+.sec2{
+	background-image: url("../img/drink.jpg");
+	height: 400px;
+background-repeat: no-repeat;
+background-attachment: fixed;
+	background-size: cover;
+}
+.sec3{
+	background-color: #fff;
+
+}
+
+.sec4{
+	background-color: #f5f5f5;
+		
+}
+
+.h {
+	padding-top: 200px;
+}
+
+
+
+.foot{
+	    	background-image: linear-gradient(90deg, rgb(77, 77, 77), rgb(204, 204, 204));
+
+
+}
+
+
+.sec7{
+margin-top: 100px;
+opacity: 0.89;
+}
+.sec8{
+background-image: linear-gradient(90deg, rgb(153, 255, 153), rgb(153, 0, 51));	
+}
+.sec9{
+	background-image: url("../img/parallax-2.jpg");
+
+}
+.design{
+	font-family: 'Dancing Script', cursive;
+font-size: 40px;
+transform: rotate(-10deg);
+color: #99004d
+;
+}
+.con{
+	margin-top: 50px;
+}
+.imgs{
+	height: 400px;
+	width: 400px;
+}
+.sec10{
+	background-image: url("../img/rainbow.jpg");
+height: 400px;
+
+background-repeat: no-repeat;
+background-attachment: fixed;
+	background-size: cover;
+}
+
+.cont{
+	font-family: 'Dancing Script', cursive;
+	color: #ff4d4d;
+}
+.p{
+	color: #ff6666;
+	font-size: 20px;
+}
