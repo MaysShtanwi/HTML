@@ -15,6 +15,46 @@
 	<meta name="keywords" content="CyberSecurity, security,IT,cloud,software,libraries,security tutorial">
 	<link rel='icon' href='img/icon.png'  >
 		<link rel="stylesheet" type="text/css" href="css/custom.css">
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="jquery-ui.js"></script>
+		<link rel="stylesheet" type="text/css" href="jquery-ui.css" >
+		<script type="text/javascript">
+			$(document).ready(function() {
+
+// Gets the video src from the data-src on each button
+
+var $videoSrc;  
+$('.video-btn').click(function() {
+    $videoSrc = $(this).data( "src" );
+});
+console.log($videoSrc);
+
+  
+  
+// when the modal is opened autoplay it  
+$('#myModal').on('shown.bs.modal', function (e) {
+    
+// set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+$("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+})
+  
+
+
+// stop playing the youtube video when I close the modal
+$('#myModal').on('hide.bs.modal', function (e) {
+    // a poor man's stop video
+    $("#video").attr('src',$videoSrc); 
+}) 
+    
+    
+
+
+  
+  
+// document ready  
+});
+
+		</script>
 </head>
 <body>
 	<section class="sec11  pt-5">
@@ -91,40 +131,94 @@ Access thousands of hours of up-to-date expert-instructed courses and hands-on l
 
 
 
-
-
-
-
-
 <section>
 	<div class="container pt-5 pb-5">
 		<div class="row">
 		<div class="col-lg-4">
 			<div class="card" style="width: 18rem;">
-  <iframe class="card-img" src="https://www.youtube.com/embed/-AkuKKJ8dN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <img src="img/intro.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-lg  p-3 text-center   btt2">Buy Course!</a>
+    <a href="#" class="btn btn-lg  p-3 text-center   btt2" data-toggle="modal" data-target="#exampleModal1">Buy Course!</a>
+
+
+    <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe class="card-img"  src="https://www.youtube.com/embed/xzDKM7eEweI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
+    </div>
+  </div>
+</div>
   </div>
 </div>
 		</div>
 			<div class="col-lg-4">
 			<div class="card" style="width: 18rem;">
-  <iframe class="card-img"  src="https://www.youtube.com/embed/xzDKM7eEweI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  <div class="card-body">
+				<img src="img/intro1.jpg" class="card-img-top" alt="...">
+ <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-lg  p-3 text-center  btt2">Buy Course!</a>
+    <a href="#" class="btn btn-lg  p-3 text-center  btt2" data-toggle="modal" data-target="#exampleModal">Buy Course!</a>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe class="card-img" src="https://www.youtube.com/embed/-AkuKKJ8dN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
   </div>
 </div>
 		</div>
 			<div class="col-lg-4">
 			<div class="card" style="width: 18rem;">
-  <iframe class="card-img" src="https://www.youtube.com/embed/ooJSgsB5fIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <img src="img/intro2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-lg  p-3 text-center   btt2">Buy Course!</a>
+    <a href="#" class="btn btn-lg  p-3 text-center   btt2" data-toggle="modal" data-target="#exampleModal2">Buy Course!</a>
+ 
+<div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe class="card-img" src="https://www.youtube.com/embed/ooJSgsB5fIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
   </div>
 </div>
 		</div>
@@ -139,27 +233,82 @@ Access thousands of hours of up-to-date expert-instructed courses and hands-on l
 <div class="row mt-2">
 		<div class="col-lg-4">
 			<div class="card" style="width: 18rem;">
-  <iframe class="card-img" src="https://www.youtube.com/embed/JdfmV2KW11I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+  <img src="img/cy.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-lg  p-3 text-center   btt2">Buy Course!</a>
+    <a href="#" class="btn btn-lg  p-3 text-center   btt2" data-toggle="modal" data-target="#exampleModal3">Buy Course!</a>
+  
+
+
+
+<div class="modal fade" id="exampleModal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe class="card-img" src="https://www.youtube.com/embed/ooJSgsB5fIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
   </div>
 </div>
 		</div>
 			<div class="col-lg-4">
 			<div class="card" style="width: 18rem;">
-  <iframe class="card-img" src="https://www.youtube.com/embed/-AkuKKJ8dN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <!-- <iframe class="card-img" src="https://www.youtube.com/embed/-AkuKKJ8dN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe> -->
+  <img src="img/cy1.jfif" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-lg  p-3 text-center   btt2">Buy Course!</a>
+    <a href="#" class="btn btn-lg  p-3 text-center   btt2" data-toggle="modal" data-target="#exampleModal4">Buy Course!</a>
+
+
+
+
+
+
+<div class="modal fade" id="exampleModal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe class="card-img" src="https://www.youtube.com/embed/ooJSgsB5fIE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+
+
   </div>
 </div>
 		</div>
 			<div class="col-lg-4">
 			<div class="card" style="width: 18rem;">
-  <iframe class="card-img" src="https://www.youtube.com/embed/-AkuKKJ8dN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <!--  <iframe class="card-img" src="https://www.youtube.com/embed/-AkuKKJ8dN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+ <img src="img/cy2.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -177,7 +326,8 @@ Access thousands of hours of up-to-date expert-instructed courses and hands-on l
 <div class="row mt-2">
 		<div class="col-lg-4">
 			<div class="card" style="width: 18rem;">
-  <iframe class="card-img" src="https://www.youtube.com/embed/-AkuKKJ8dN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <!--  <iframe class="card-img" src="https://www.youtube.com/embed/-AkuKKJ8dN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+ <img src="img/ethical.jfif" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -187,7 +337,8 @@ Access thousands of hours of up-to-date expert-instructed courses and hands-on l
 		</div>
 			<div class="col-lg-4">
 			<div class="card" style="width: 18rem;">
- <iframe class="card-img" src="https://www.youtube.com/embed/JdfmV2KW11I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+ <!-- <iframe class="card-img" src="https://www.youtube.com/embed/JdfmV2KW11I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+  <img src="img/ethical1.jfif" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -197,8 +348,9 @@ Access thousands of hours of up-to-date expert-instructed courses and hands-on l
 		</div>
 			<div class="col-lg-4" >
 			<div class="card " style="width: 18rem;"  >
-			
-				 <iframe class="card-img"  src="https://www.youtube.com/embed/xzDKM7eEweI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<!-- 
+				 <iframe class="card-img"  src="https://www.youtube.com/embed/xzDKM7eEweI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+				  <img src="img/ethical2.jfif" class="card-img-top" alt="...">
  
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
